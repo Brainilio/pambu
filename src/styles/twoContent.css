@@ -1,0 +1,25 @@
+.two {
+	margin: 3em 0;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.two-text {
+	width: 80%;
+	margin-left: 10em;
+}
+
+p {
+	margin: 2em 0;
+	width: 60%;
+	margin-bottom: 2em;
+}
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.two img {
+	object-fit: cover;
+}
