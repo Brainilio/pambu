@@ -18,7 +18,9 @@ const TwoContent = ({
 				<p>{text}</p>
 				{btnBool ? <Button link={btnLink} text={btnText} /> : null}
 			</div>
-			<img src={image} alt="group" width="1200px" height="700px" />
+			<div className="image-wrapper">
+				<img src={image} alt="group" />
+			</div>
 		</section>
 	)
 }

@@ -5,11 +5,27 @@ import TwoContent from "../components/TwoContent"
 import "../styles/globalStyles.css"
 import girl1 from "../images/girl1.jpg"
 import boy1 from "../images/boy1.jpg"
+import group from "../images/group.jpg"
+import dance from "../images/dance.jpg"
+import music from "../images/music.jpg"
+import model from "../images/model.jpg"
+import ServiceCard from "../components/ServiceCard"
 
 const styles = {
 	background: "black",
 	color: "white",
 }
+
+const reasons = (
+	<ul>
+		<li>Je doet altijd wat je droomde te doen.</li>
+		<li>Je hebt meer zelfvertrouwen.</li>
+		<li>Je hebt meer likes.</li>
+		<li>Je hebt nieuwe volgers.</li>
+		<li>Je hebt meer views.</li>
+		<li>Je wordt meer geboekt: optretends, shows, etc.</li>
+	</ul>
+)
 
 // markup
 const IndexPage = () => {
@@ -40,6 +56,29 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 				text="Wanneer is een droom gerealiseerd?"
 				subtitle="Insert inspiring quote here"
 			></Title>
+			<TwoContent title="" text={reasons} image={group} />
+			<Title
+				text="Onze diensten"
+				subtitle="Als Social Media expert kiest PAMBU ervoor om met professionals te werken die de nodige kennis en deskundigheid aan kunnen bieden. Er wordt gereikt naar een praktijkgerichte methodiek via projectmatig werken. Hiervoor maken we gebruik van onze waardevolle kanalen zoals Facebook, Instagram, YouTube etc."
+			></Title>
+			<seciton class="card-wrapper">
+				<ServiceCard
+					title="Dans"
+					description={`‘’The secret is not being perfect’’`}
+					image={dance}
+				/>
+				<ServiceCard
+					title="Model"
+					description={`‘’Music is the medicine of the mind’’`}
+					image={model}
+				/>
+				<ServiceCard
+					title="Muziek"
+					description={`“They call it dance, we call it life”`}
+					image={music}
+				/>
+			</seciton>
+			<Title text="Once you choose PAMBU, everything is possible!"></Title>
 		</main>
 	)
 }
