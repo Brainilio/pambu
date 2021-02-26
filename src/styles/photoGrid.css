@@ -1,0 +1,78 @@
+.photo-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.first {
+	display: flex;
+	flex-direction: column;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+}
+
+.third {
+	display: flex;
+	flex-direction: column;
+}
+
+.f-first-photo {
+	width: 300px;
+	height: 500px;
+	background-color: red;
+	margin: 1rem;
+}
+
+.f-second-photo {
+	width: 300px;
+	height: 250px;
+	background-color: blue;
+	margin: 1rem;
+}
+
+.s-first-photo {
+	width: 300px;
+	height: 500px;
+	background-color: red;
+	margin: 1rem;
+}
+
+.s-second-photo {
+	width: 300px;
+	height: 250px;
+	background-color: blue;
+	margin: 1rem;
+}
+
+.t-first-photo {
+	width: 300px;
+	height: 500px;
+	background-color: red;
+	margin: 1rem;
+}
+
+.t-second-photo {
+	width: 300px;
+	height: 250px;
+	background-color: blue;
+	margin: 1rem;
+}
+
+.grid-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 55%;
+}

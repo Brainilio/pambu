@@ -10,6 +10,7 @@ import dance from "../images/dance.jpg"
 import music from "../images/music.jpg"
 import model from "../images/model.jpg"
 import ServiceCard from "../components/ServiceCard"
+import PhotoGrid from "../components/PhotoGrid"
 
 const styles = {
 	background: "black",
@@ -61,7 +62,7 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 				text="Onze diensten"
 				subtitle="Als Social Media expert kiest PAMBU ervoor om met professionals te werken die de nodige kennis en deskundigheid aan kunnen bieden. Er wordt gereikt naar een praktijkgerichte methodiek via projectmatig werken. Hiervoor maken we gebruik van onze waardevolle kanalen zoals Facebook, Instagram, YouTube etc."
 			></Title>
-			<seciton class="card-wrapper">
+			<seciton className="card-wrapper">
 				<ServiceCard
 					title="Dans"
 					description={`‘’The secret is not being perfect’’`}
@@ -79,6 +80,7 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 				/>
 			</seciton>
 			<Title text="Once you choose PAMBU, everything is possible!"></Title>
+			<PhotoGrid />
 		</main>
 	)
 }
