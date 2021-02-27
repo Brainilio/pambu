@@ -93,6 +93,17 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 					<Form />
 				</section>
 			</main>
+			<footer>
+				© 2021 Pambu | All Rights Reserved | Made with 🖤 by{" "}
+				<a
+					rel="noopener noreferrer"
+					target="_blank"
+					href="https://bayvinemedia.com"
+				>
+					{" "}
+					Bay Vine Media{" "}
+				</a>
+			</footer>
 		</>
 	)
 }
