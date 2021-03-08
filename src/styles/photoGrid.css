@@ -73,6 +73,6 @@
 .grid-footer {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	width: 55%;
+	justify-content: space-around;
+	width: 100%;
 }

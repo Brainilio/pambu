@@ -14,20 +14,21 @@ import PhotoGrid from "../components/PhotoGrid"
 import Form from "../components/Form"
 import ContactInformation from "../components/ContactInformation"
 import Navbar from "../components/Navbar"
+import { Link } from "gatsby"
 
 const styles = {
-	background: "#1A1A1A",
+	background: "black",
 	color: "white",
 }
 
 const reasons = (
 	<ul>
-		<li>Je doet altijd wat je droomde te doen.</li>
-		<li>Je hebt meer zelfvertrouwen.</li>
-		<li>Je hebt meer likes.</li>
-		<li>Je hebt nieuwe volgers.</li>
-		<li>Je hebt meer views.</li>
-		<li>Je wordt meer geboekt: optretends, shows, etc.</li>
+		<li>✔ Je doet altijd wat je droomde te doen.</li>
+		<li>✔ Je hebt meer zelfvertrouwen.</li>
+		<li>✔ Je hebt meer likes.</li>
+		<li>✔ Je hebt nieuwe volgers.</li>
+		<li>✔ Je hebt meer views.</li>
+		<li>✔ Je wordt meer geboekt: optretends, shows, etc.</li>
 	</ul>
 )
 
@@ -74,16 +75,19 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 						title="Dans"
 						description={`‘’The secret is not being perfect’’`}
 						image={dance}
+						linkTo="/dance"
 					/>
 					<ServiceCard
 						title="Model"
 						description={`‘’Music is the medicine of the mind’’`}
 						image={model}
+						linkTo="/modelling"
 					/>
 					<ServiceCard
 						title="Muziek"
 						description={`“They call it dance, we call it life”`}
 						image={music}
+						linkTo="/music"
 					/>
 				</section>
 				<Title text="Once you choose PAMBU, everything is possible!"></Title>
@@ -94,7 +98,7 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 				</section>
 			</main>
 			<footer>
-				© 2021 Pambu | All Rights Reserved | Made with 🖤 by{" "}
+				© 2021 Pambu | All Rights Reserved | Made with <span>🖤</span> by{" "}
 				<a
 					rel="noopener noreferrer"
 					target="_blank"

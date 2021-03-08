@@ -1,11 +1,12 @@
+import { Link } from "gatsby"
 import React from "react"
 import "../styles/button.css"
 
 const Button = ({ link = "#", text }) => {
 	return (
-		<a className="button" href={link}>
+		<Link className="button" to={link}>
 			{text}
-		</a>
+		</Link>
 	)
 }
 

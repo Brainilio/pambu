@@ -1,0 +1,26 @@
+.page-header {
+	width: 100vw;
+	height: 350px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-header-title {
+	z-index: 100;
+	font-size: 18vw;
+	text-align: center;
+}
+
+.page-header-image {
+	object-fit: cover;
+	width: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	height: 100%;
+	opacity: 80%;
+	z-index: -1;
+}
