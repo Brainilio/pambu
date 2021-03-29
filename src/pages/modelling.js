@@ -31,7 +31,8 @@ const content = [
 	},
 	{
 		title: "Life Coaching",
-		description: "Om het maximale uit je te halen via impact.",
+		description:
+			"Via deze weg willen we het maximale uit je krijgen. Omdat we hebben gemerkt dat je persoonlijke leven veel impact kan hebben op alles wat je ooit zou willen bereiken in het leven. In dit geval, muziek.",
 	},
 	{
 		title: "Portfolio",

@@ -61,7 +61,7 @@ const Form = () => {
 					></textarea>
 				</div>
 				<div>
-					<input type="submit" value="Nu boeken"></input>
+					<input type="submit" value="INDIENEN"></input>
 				</div>
 			</form>
 		</div>

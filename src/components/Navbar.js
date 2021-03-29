@@ -35,6 +35,11 @@ const Navbar = () => {
 								Music
 							</Link>
 						</li>
+						<li>
+							<Link to="/prijzen" activeStyle={{ color: "grey" }}>
+								Prijzen
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div onClick={() => hamburgerHandler()} className="hamburger">
@@ -67,6 +72,11 @@ const Navbar = () => {
 						<li>
 							<Link to="/music" activeStyle={{ color: "grey" }}>
 								Music
+							</Link>
+						</li>
+						<li>
+							<Link to="/prijzen" activeStyle={{ color: "grey" }}>
+								Prijzen
 							</Link>
 						</li>
 					</ul>

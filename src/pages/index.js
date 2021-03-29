@@ -90,7 +90,10 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 						linkTo="/music"
 					/>
 				</section>
-				<Title text="Once you choose PAMBU, everything is possible!"></Title>
+				<Title
+					text="Once you choose PAMBU, everything is possible!"
+					subtitle="Prijzen vanaf vanaf €100,-"
+				></Title>
 				<PhotoGrid />
 				<section className="contact-section">
 					<ContactInformation />

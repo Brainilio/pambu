@@ -1,0 +1,28 @@
+.price-table {
+	min-width: 80%;
+	width: fit-content;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	grid-gap: 5em;
+}
+
+.price {
+	width: 100%;
+	border-bottom: 2px solid white;
+	display: flex;
+	padding-bottom: 15px;
+}
+
+.price-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.whitespace {
+	margin: 10em;
+}
