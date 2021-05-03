@@ -4,7 +4,7 @@ import "../styles/pageHeader.css"
 const PageHeader = ({ image, text }) => {
 	return (
 		<div className="page-header">
-			<h1 className="page-header-title">{text}</h1>
+			<h2 className="page-header-title">{text}</h2>
 			<img
 				className="page-header-image"
 				src={image}

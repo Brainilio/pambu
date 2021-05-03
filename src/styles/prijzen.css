@@ -26,3 +26,18 @@
 .whitespace {
 	margin: 10em;
 }
+
+@media only screen and (max-width: 768px) {
+	.price-table {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.price {
+		flex-direction: column;
+	}
+
+	.price-left {
+		justify-content: center;
+	}
+}

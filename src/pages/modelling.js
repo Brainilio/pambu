@@ -67,7 +67,8 @@ Met behulp van een professionele fotograaf ga je te werk en leer je omgaan met d
 					<Form />
 				</section>
 				<footer>
-					© 2021 Pambu | All Rights Reserved | Made with <span>🖤</span> by{" "}
+					© 2021 Pambu | All Rights Reserved | Made with{" "}
+					<span role="img">🖤</span> by{" "}
 					<a
 						rel="noopener noreferrer"
 						target="_blank"

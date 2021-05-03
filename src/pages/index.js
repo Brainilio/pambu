@@ -9,12 +9,9 @@ import group from "../images/group.jpg"
 import dance from "../images/dance.jpg"
 import music from "../images/music.jpg"
 import model from "../images/model.jpg"
-import ServiceCard from "../components/ServiceCard"
-import PhotoGrid from "../components/PhotoGrid"
 import Form from "../components/Form"
 import ContactInformation from "../components/ContactInformation"
 import Navbar from "../components/Navbar"
-import { Link } from "gatsby"
 
 const styles = {
 	background: "black",
@@ -94,7 +91,7 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 					text="Once you choose PAMBU, everything is possible!"
 					subtitle="Prijzen vanaf vanaf €100,-"
 				></Title>
-				<PhotoGrid />
+
 				<section className="contact-section">
 					<ContactInformation />
 					<Form />

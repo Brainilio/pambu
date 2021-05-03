@@ -16,6 +16,7 @@ module.exports = {
 				trackingId: process.env.GA_TRACKING_ID,
 			},
 		},
+		"gatsby-plugin-transition-link",
 		"gatsby-plugin-sharp",
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sitemap",
@@ -24,7 +25,7 @@ module.exports = {
 			resolve: "gatsby-source-filesystem",
 			options: {
 				name: "images",
-				path: "./src/images/",
+				path: "./src/images/gallery",
 			},
 			__key: "images",
 		},

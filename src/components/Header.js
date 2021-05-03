@@ -7,11 +7,11 @@ const Header = () => {
 		<section className="header">
 			<div>
 				<h1 className="header-title">PAMBU</h1>
-				<span className="header-subtitle">
+				<span className="header-subtitle" style={{ fontWeight: "900" }}>
 					Pretty amazing yet unique moments.
 				</span>
 			</div>
-			<Button link="#" text="READ MORE" />
+			<Button link="#" text="Lees meer" />
 		</section>
 	)
 }

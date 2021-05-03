@@ -10,16 +10,13 @@ const ContactInformation = () => {
 			<span>
 				Laat uw gegevens achter en wij zullen u zo spoedig mogelijk contacteren.
 			</span>
-			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting
-				industry. Lorem Ipsum has been the industry’s standard dummy text ever
-				since the 1500s, when an unknown printer took a galley of type and
-				scrambled it to make a type specimen book.
-			</p>
+
 			<div className="socialmediarow">
 				<div className="insta">
 					<img src={instagram} width="50px" height="50px" alt="icon" />
-					<span>@pambumedia</span>
+					<span>
+						<a href="https://www.instagram.com/pambumedia/">@pambumedia</a>
+					</span>
 				</div>
 				<div className="phone">
 					<img src={phone} width="50px" height="50px" alt="icon" />

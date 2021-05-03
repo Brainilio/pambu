@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "../styles/navbar.css"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false)
@@ -12,33 +12,67 @@ const Navbar = () => {
 		<>
 			<nav className="navbar">
 				<div className="logo">
-					<h3>
-						<Link to="/" activeStyle={{ color: "grey" }}>
+					<h2>
+						<AniLink duration={1} fade activeStyle={{ color: "grey" }} to="/">
 							PAMBU
-						</Link>
-					</h3>
+						</AniLink>
+
+						{/* <Link to="/" activeStyle={{ color: "grey" }}>
+							PAMBU
+						</Link> */}
+					</h2>
 				</div>
 				<div className="navlinks">
 					<ul>
 						<li>
-							<Link to="/modelling" activeStyle={{ color: "grey" }}>
-								Modelling
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								to="/modelling"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Modelling</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/dance" activeStyle={{ color: "grey" }}>
-								Dans
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								to="/dance"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Dans</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/music" activeStyle={{ color: "grey" }}>
-								Music
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								to="/music"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Music</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/prijzen" activeStyle={{ color: "grey" }}>
-								Prijzen
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								to="/prijzen"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Prijzen</h5>
+							</AniLink>
+						</li>
+						<li>
+							<AniLink
+								duration={1}
+								fade
+								to="/photos"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5> Gallerij</h5>
+							</AniLink>
 						</li>
 					</ul>
 				</div>
@@ -48,36 +82,79 @@ const Navbar = () => {
 					<span></span>
 				</div>
 			</nav>
-			<div className={`sidedrawer ${open ? "open" : ""}`}>
-				<button onClick={() => hamburgerHandler()}>X</button>
+			<div
+				onClick={() => hamburgerHandler()}
+				className={`sidedrawer ${open ? "open" : ""}`}
+			>
+				{/* <button onClick={() => hamburgerHandler()}>X</button> */}
 				<div className="logo">
 					<h1>
-						<Link to="/" activeStyle={{ color: "grey" }}>
+						<AniLink
+							duration={1}
+							fade
+							onClick={() => hamburgerHandler()}
+							to="/"
+							activeStyle={{ color: "grey" }}
+						>
 							PAMBU
-						</Link>
+						</AniLink>
 					</h1>
 				</div>
 				<div className="navlinks-sidedrawer">
 					<ul>
 						<li>
-							<Link to="/modelling" activeStyle={{ color: "grey" }}>
-								Modelling
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								onClick={() => hamburgerHandler()}
+								to="/modelling"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Modelling</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/dance" activeStyle={{ color: "grey" }}>
-								Dans
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								onClick={() => hamburgerHandler()}
+								to="/dance"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Dans</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/music" activeStyle={{ color: "grey" }}>
-								Music
-							</Link>
+							<AniLink
+								duration={1}
+								onClick={() => hamburgerHandler()}
+								to="/music"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Music</h5>
+							</AniLink>
 						</li>
 						<li>
-							<Link to="/prijzen" activeStyle={{ color: "grey" }}>
-								Prijzen
-							</Link>
+							<AniLink
+								duration={1}
+								fade
+								onClick={() => hamburgerHandler()}
+								to="/prijzen"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5>Prijzen</h5>
+							</AniLink>
+						</li>
+						<li>
+							<AniLink
+								duration={1}
+								fade
+								onClick={() => hamburgerHandler()}
+								to="/photos"
+								activeStyle={{ color: "grey" }}
+							>
+								<h5> Gallerij</h5>
+							</AniLink>
 						</li>
 					</ul>
 				</div>

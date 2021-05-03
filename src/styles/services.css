@@ -3,20 +3,24 @@
 	height: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 5em;
+	padding-right: 5em;
+	box-sizing: border-box;
 	justify-items: center;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
 	margin: 0 auto;
 }
 
 .services-cards {
 	width: 350px;
-	height: 350px;
-	border: 3px solid white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	padding-top: 3em;
+	margin: 2em 0;
 }
 
 .services-cards h1 {
@@ -27,5 +31,14 @@
 
 .services-cards p {
 	text-align: center;
-	margin: 0 1em;
+}
+
+@media only screen and (max-width: 768px) {
+	.services-section {
+		display: flex;
+		flex-direction: column;
+		padding-left: 1em;
+		align-items: center;
+		padding-right: 1em;
+	}
 }
