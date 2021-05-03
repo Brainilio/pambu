@@ -82,7 +82,11 @@ Deze jonge man is zeker een zak vol talent!
 					<Form />
 				</section>
 				<footer>
-					© 2021 Pambu | All Rights Reserved | Made with <span>🖤</span> by{" "}
+					© 2021 Pambu | All Rights Reserved | Made with{" "}
+					<span aria-label="" role="img">
+						🖤
+					</span>{" "}
+					by{" "}
 					<a
 						rel="noopener noreferrer"
 						target="_blank"

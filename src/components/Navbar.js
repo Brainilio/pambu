@@ -76,13 +76,18 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-				<div onClick={() => hamburgerHandler()} className="hamburger">
+				<div
+					onClick={() => hamburgerHandler()}
+					className="hamburger"
+					aria-hidden="true"
+				>
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
 			</nav>
 			<div
+				aria-hidden="true"
 				onClick={() => hamburgerHandler()}
 				className={`sidedrawer ${open ? "open" : ""}`}
 			>

@@ -104,7 +104,10 @@ Je zult ervan schrikken hoe rechtvaardig hij is maar je ondertussen nog veel kan
 				</section>
 				<footer>
 					© 2021 Pambu | All Rights Reserved | Made with{" "}
-					<span role="img">🖤</span> by{" "}
+					<span role="img" aria-label="">
+						🖤
+					</span>{" "}
+					by{" "}
 					<a
 						rel="noopener noreferrer"
 						target="_blank"

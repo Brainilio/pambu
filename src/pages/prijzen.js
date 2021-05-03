@@ -98,7 +98,10 @@ const prijzen = () => {
 			<div className="whitespace"></div>
 			<footer>
 				© 2021 Pambu | All Rights Reserved | Made with{" "}
-				<span role="img">🖤</span> by{" "}
+				<span role="img" aria-label="">
+					🖤
+				</span>{" "}
+				by{" "}
 				<a
 					rel="noopener noreferrer"
 					target="_blank"

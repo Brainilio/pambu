@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import Title from "../components/Title"
 import TwoContent from "../components/TwoContent"
 import "../styles/globalStyles.css"
+import ServiceCard from "../components/ServiceCard"
 import girl1 from "../images/girl1.jpg"
 import boy1 from "../images/boy1.jpg"
 import group from "../images/group.jpg"
@@ -98,7 +99,11 @@ PAMBU vertrekt vanuit positieve bekrachtiging waarbij motivatie, respect, discip
 				</section>
 			</main>
 			<footer>
-				© 2021 Pambu | All Rights Reserved | Made with <span>🖤</span> by{" "}
+				© 2021 Pambu | All Rights Reserved | Made with{" "}
+				<span role="img" aria-label="">
+					🖤
+				</span>{" "}
+				by{" "}
 				<a
 					rel="noopener noreferrer"
 					target="_blank"
