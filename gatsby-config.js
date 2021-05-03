@@ -19,6 +19,7 @@ module.exports = {
 		"gatsby-plugin-transition-link",
 		"gatsby-plugin-sharp",
 		"gatsby-plugin-react-helmet",
+		"gatsby-plugin-image",
 		// "gatsby-plugin-sitemap",
 		"gatsby-transformer-sharp",
 		{
